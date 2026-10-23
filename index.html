@@ -1,0 +1,925 @@
+<!doctype html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>مدبّر إدارة أموالك بذكاء</title>
+    <link rel="shortcut icon" href="./Assignment5-img/favicon (1).png" type="image/x-icon" />
+    <link rel="stylesheet" href=".//css/Assignment05.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="head">
+        <div class="svg">
+          <svg
+            class="svg-inline--fa fa-coins text-white text-xl md:text-base xl:text-xl"
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            data-icon="coins"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            data-fa-i2svg="">
+            <path
+              fill="currentColor"
+              d="M512 80c0 18-14.3 34.6-38.4 48c-29.1 16.1-72.5 27.5-122.3 30.9c-3.7-1.8-7.4-3.5-11.3-5C300.6 137.4 248.2 128 192 128c-8.3 0-16.4 .2-24.5 .6l-1.1-.6C142.3 114.6 128 98 128 80c0-44.2 86-80 192-80S512 35.8 512 80zM160.7 161.1c10.2-.7 20.7-1.1 31.3-1.1c62.2 0 117.4 12.3 152.5 31.4C369.3 204.9 384 221.7 384 240c0 4-.7 7.9-2.1 11.7c-4.6 13.2-17 25.3-35 35.5c0 0 0 0 0 0c-.1 .1-.3 .1-.4 .2l0 0 0 0c-.3 .2-.6 .3-.9 .5c-35 19.4-90.8 32-153.6 32c-59.6 0-112.9-11.3-148.2-29.1c-1.9-.9-3.7-1.9-5.5-2.9C14.3 274.6 0 258 0 240c0-34.8 53.4-64.5 128-75.4c10.5-1.5 21.4-2.7 32.7-3.5zM416 240c0-21.9-10.6-39.9-24.1-53.4c28.3-4.4 54.2-11.4 76.2-20.5c16.3-6.8 31.5-15.2 43.9-25.5V176c0 19.3-16.5 37.1-43.8 50.9c-14.6 7.4-32.4 13.7-52.4 18.5c.1-1.8 .2-3.5 .2-5.3zm-32 96c0 18-14.3 34.6-38.4 48c-1.8 1-3.6 1.9-5.5 2.9C304.9 404.7 251.6 416 192 416c-62.8 0-118.6-12.6-153.6-32C14.3 370.6 0 354 0 336V300.6c12.5 10.3 27.6 18.7 43.9 25.5C83.4 342.6 135.8 352 192 352s108.6-9.4 148.1-25.9c7.8-3.2 15.3-6.9 22.4-10.9c6.1-3.4 11.8-7.2 17.2-11.2c1.5-1.1 2.9-2.3 4.3-3.4V304v5.7V336zm32 0V304 278.1c19-4.2 36.5-9.5 52.1-16c16.3-6.8 31.5-15.2 43.9-25.5V272c0 10.5-5 21-14.9 30.9c-16.3 16.3-45 29.7-81.3 38.4c.1-1.7 .2-3.5 .2-5.3zM192 448c56.2 0 108.6-9.4 148.1-25.9c16.3-6.8 31.5-15.2 43.9-25.5V432c0 44.2-86 80-192 80S0 476.2 0 432V396.6c12.5 10.3 27.6 18.7 43.9 25.5C83.4 438.6 135.8 448 192 448z"></path>
+          </svg>
+        </div>
+        <div class="content">
+          <h2>مدبّر</h2>
+          <p>إدارة أموالك بذكاء</p>
+        </div>
+      </div>
+      <div class="first buttons">
+        <button class="home">
+          <img src="./Assignment5-img/house-solid-full.png" alt="" />
+          <p>الصفحة الرئيسية</p>
+        </button>
+        <button>
+          <img src="./Assignment5-img/arrow-right-arrow-left-solid-full.png" alt="" />
+          <p>المعاملات</p>
+        </button>
+        <button>
+          <img src="./Assignment5-img/chart-pie-solid-full.png" alt="" />
+          <p>الميزانيات</p>
+        </button>
+        <button>
+          <img src="./Assignment5-img/piggy-bank-solid.png" alt="" />
+          <p>المدخرات</p>
+        </button>
+        <button>
+          <img src="./Assignment5-img/file-invoice-dollar-solid-full.png" alt="" />
+          <p>الفواتير الشهرية</p>
+        </button>
+      </div>
+      <h5>إجراءات سريعة</h5>
+      <div class="second buttons">
+        <button>
+          <div class="img first"><img src="./Assignment5-img/paper-plane-solid-full.png" alt="" /></div>
+          <p>إرسال أموال</p>
+        </button>
+        <button>
+          <div class="img second"><img src="./Assignment5-img/plus-solid-full.png" alt="" /></div>
+          <p>إضافة أموال</p>
+        </button>
+        <button>
+          <div class="img third"><img src="./Assignment5-img/receipt-solid-full.png" alt="" /></div>
+          <p>دفع فاتورة</p>
+        </button>
+        <button>
+          <div class="img fourth"><img src="./Assignment5-img/chart-line-solid-full.png" alt="" /></div>
+          <p>استثمار</p>
+        </button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="head">
+        <div class="right">
+          <div class="svg">
+            <svg
+              class="svg-inline--fa fa-coins text-white text-xl md:text-base xl:text-xl"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fas"
+              data-icon="coins"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              data-fa-i2svg="">
+              <path
+                fill="currentColor"
+                d="M512 80c0 18-14.3 34.6-38.4 48c-29.1 16.1-72.5 27.5-122.3 30.9c-3.7-1.8-7.4-3.5-11.3-5C300.6 137.4 248.2 128 192 128c-8.3 0-16.4 .2-24.5 .6l-1.1-.6C142.3 114.6 128 98 128 80c0-44.2 86-80 192-80S512 35.8 512 80zM160.7 161.1c10.2-.7 20.7-1.1 31.3-1.1c62.2 0 117.4 12.3 152.5 31.4C369.3 204.9 384 221.7 384 240c0 4-.7 7.9-2.1 11.7c-4.6 13.2-17 25.3-35 35.5c0 0 0 0 0 0c-.1 .1-.3 .1-.4 .2l0 0 0 0c-.3 .2-.6 .3-.9 .5c-35 19.4-90.8 32-153.6 32c-59.6 0-112.9-11.3-148.2-29.1c-1.9-.9-3.7-1.9-5.5-2.9C14.3 274.6 0 258 0 240c0-34.8 53.4-64.5 128-75.4c10.5-1.5 21.4-2.7 32.7-3.5zM416 240c0-21.9-10.6-39.9-24.1-53.4c28.3-4.4 54.2-11.4 76.2-20.5c16.3-6.8 31.5-15.2 43.9-25.5V176c0 19.3-16.5 37.1-43.8 50.9c-14.6 7.4-32.4 13.7-52.4 18.5c.1-1.8 .2-3.5 .2-5.3zm-32 96c0 18-14.3 34.6-38.4 48c-1.8 1-3.6 1.9-5.5 2.9C304.9 404.7 251.6 416 192 416c-62.8 0-118.6-12.6-153.6-32C14.3 370.6 0 354 0 336V300.6c12.5 10.3 27.6 18.7 43.9 25.5C83.4 342.6 135.8 352 192 352s108.6-9.4 148.1-25.9c7.8-3.2 15.3-6.9 22.4-10.9c6.1-3.4 11.8-7.2 17.2-11.2c1.5-1.1 2.9-2.3 4.3-3.4V304v5.7V336zm32 0V304 278.1c19-4.2 36.5-9.5 52.1-16c16.3-6.8 31.5-15.2 43.9-25.5V272c0 10.5-5 21-14.9 30.9c-16.3 16.3-45 29.7-81.3 38.4c.1-1.7 .2-3.5 .2-5.3zM192 448c56.2 0 108.6-9.4 148.1-25.9c16.3-6.8 31.5-15.2 43.9-25.5V432c0 44.2-86 80-192 80S0 476.2 0 432V396.6c12.5 10.3 27.6 18.7 43.9 25.5C83.4 438.6 135.8 448 192 448z"></path>
+            </svg>
+          </div>
+          <div class="content">
+            <h1>مدبّر</h1>
+            <p>إدارة أموالك بذكاء</p>
+          </div>
+          <div class="connect num1">
+            <div class="dot"></div>
+            <span>متصل </span>
+          </div>
+        </div>
+        <div class="left">
+          <div class="buttons">
+            <button>
+              <div class="svg">
+                <svg
+                  class="svg-inline--fa fa-magnifying-glass text-gray-600 group-hover:text-gray-700 text-sm md:text-base"
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fas"
+                  data-icon="magnifying-glass"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                  data-fa-i2svg="">
+                  <path
+                    fill="currentColor"
+                    d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"></path>
+                </svg>
+              </div>
+            </button>
+            <button class="relative">
+              <div class="svg">
+                <svg
+                  class="svg-inline--fa fa-bell text-gray-600 group-hover:text-gray-700 text-sm md:text-base"
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="far"
+                  data-icon="bell"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                  data-fa-i2svg="">
+                  <path
+                    fill="currentColor"
+                    d="M224 0c-17.7 0-32 14.3-32 32V49.9C119.5 61.4 64 124.2 64 200v33.4c0 45.4-15.5 89.5-43.8 124.9L5.3 377c-5.8 7.2-6.9 17.1-2.9 25.4S14.8 416 24 416H424c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C399.5 322.9 384 278.8 384 233.4V200c0-75.8-55.5-138.6-128-150.1V32c0-17.7-14.3-32-32-32zm0 96h8c57.4 0 104 46.6 104 104v33.4c0 47.9 13.9 94.6 39.7 134.6H72.3C98.1 328 112 281.3 112 233.4V200c0-57.4 46.6-104 104-104h8zm64 352H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z"></path>
+                </svg>
+              </div>
+              <span>2</span>
+            </button>
+          </div>
+          <div class="user">
+            <div class="info">
+              <h4>سيف أسامة</h4>
+              <p>حساب مميز</p>
+            </div>
+            <img src="./Assignment5-img/avatar-1 (1).jpg" alt="" />
+          </div>
+        </div>
+        <div class="connect num2">
+          <div class="dot"></div>
+          <span>متصل </span>
+        </div>
+      </div>
+      <div class="summary cards">
+        <div class="card num1">
+          <h6>الرصيد الحالي</h6>
+          <p>8,450 جنية</p>
+
+          <div class="svg">
+            <svg
+              class="svg-inline--fa fa-arrow-up text-green-600 text-sm ml-1"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fas"
+              data-icon="arrow-up"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 384 512"
+              data-fa-i2svg="">
+              <path
+                fill="currentColor"
+                d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"></path>
+            </svg>
+            <span>+2.5%</span>
+          </div>
+        </div>
+        <div class="card num2">
+          <h6>الدخل</h6>
+          <p>15,000 جنية</p>
+
+          <div class="svg">
+            <svg
+              class="svg-inline--fa fa-arrow-up text-green-600 text-sm ml-1"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fas"
+              data-icon="arrow-up"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 384 512"
+              data-fa-i2svg="">
+              <path
+                fill="currentColor"
+                d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"></path>
+            </svg>
+            <span>+8.2%</span>
+          </div>
+        </div>
+
+        <div class="card num3">
+          <h6>المصروفات</h6>
+          <p>10,000 جنية</p>
+
+          <div class="svg">
+            <svg
+              class="svg-inline--fa fa-arrow-down text-red-600 text-sm ml-1"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fas"
+              data-icon="arrow-down"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 384 512"
+              data-fa-i2svg="">
+              <path
+                fill="currentColor"
+                d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
+            </svg>
+            <span>-1.2%</span>
+          </div>
+        </div>
+      </div>
+      <div class="board">
+        <div class="activities">
+          <h3>الأنشطة الحديثة</h3>
+          <div class="section account">
+            <div class="img"><img src="./Assignment5-img/user-plus-solid-full.png" alt="" /></div>
+            <div class="text">
+              <div>
+                <h4>إنشاء حساب توفير جديد حساب</h4>
+                <p class="name">حساب</p>
+              </div>
+              <p class="confirm">تم إنشاء حساب توفير بنك الأهلي بنجاح</p>
+              <p class="time">منذ ساعة واحدة</p>
+            </div>
+          </div>
+          <div class="section card">
+            <div class="img"><img src="./Assignment5-img/credit-card-solid-full-green.png" alt="" /></div>
+            <div class="text">
+              <div>
+                <h4>إضافة بطاقة جديدة</h4>
+                <p class="name">بطاقة</p>
+              </div>
+              <p class="confirm">تمت إضافة بطاقة Visa الجديدة ****2847</p>
+              <p class="time">منذ 3 ساعات</p>
+            </div>
+          </div>
+          <button>عرض جميع الأنشطة (23)</button>
+        </div>
+        <div class="bills">
+          <div class="header">
+            <h3>الفواتير الشهرية</h3>
+            <button>عرض الكل ></button>
+          </div>
+          <p class="bill">1920 جنية</p>
+          <p class="total">إجمالي الفواتير الشهرية</p>
+          <div class="sections">
+            <div class="section internet">
+              <div class="img"><img src="./Assignment5-img/wifi-solid-full.png" alt="" /></div>
+              <p class="name">إنترنت</p>
+              <p class="cost">450 جنية</p>
+              <p class="days">يستحق في 3 أيام</p>
+            </div>
+            <div class="section electric">
+              <div class="img"><img src="./Assignment5-img/bolt-solid-full.png" alt="" /></div>
+
+              <p class="name">كهرباء</p>
+
+              <p class="cost">400 جنية</p>
+              <p class="days">يستحق في 5 أيام</p>
+            </div>
+
+            <div class="section phone">
+              <div class="img"><img src="./Assignment5-img/phone-solid-full.png" alt="" /></div>
+              <p class="name">هاتف</p>
+              <p class="cost">290 جنية</p>
+              <p class="days">يستحق في 10 أيام</p>
+            </div>
+
+            <div class="section netflix">
+              <div class="img"><img src="./Assignment5-img/tv-solid-full-red.png" alt="" /></div>
+              <p class="name">Netflix</p>
+              <p class="cost">780 جنية</p>
+              <p class="days">يستحق في 15 يوم</p>
+            </div>
+          </div>
+        </div>
+        <div class="transactions">
+          <div class="header">
+            <h3>المعاملات الأخيرة</h3>
+            <button>عرض الكل ></button>
+          </div>
+          <div class="table">
+            <table>
+              <thead>
+                <tr>
+                  <th>المعاملة</th>
+                  <th>الفئة</th>
+                  <th>التاريخ</th>
+                  <th>الحالة</th>
+                  <th>المبلغ</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <div class="transaction">
+                      <div class="img"><img class="avatar" src="./Assignment5-img/avatar-2 (1).jpg" alt="" /></div>
+                      <div>
+                        <p class="name">محمود النجار</p>
+                        <p class="transact">تحويل أموال</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="class A">
+                      <img src="./Assignment5-img/arrow-down-solid-full.png" alt="" />
+                      <span>دخل</span>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="date">١٤ أكتوبر ٢٠٢٥</p>
+                  </td>
+                  <td><span class="status completed">مكتمل</span></td>
+                  <td>
+                    <p class="price plus">+350 جنية</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="transaction">
+                      <div class="img">
+                        <img class="icon A" src="./Assignment5-img/utensils-solid-full.png" alt="" />
+                      </div>
+                      <div>
+                        <p class="name">مطعم Meat moot</p>
+                        <p class="transact">دفع مطعم</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="class B">
+                      <img src="./Assignment5-img/utensils-solid-full.png" alt="" />
+                      <span>طعام</span>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="date">14 أكتوبر، 2025</p>
+                  </td>
+                  <td><span class="status completed">مكتمل</span></td>
+                  <td>
+                    <p class="price">-2200 جنية</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="transaction">
+                      <div class="img">
+                        <img class="icon B" src="./Assignment5-img/cart-shopping-solid-full-blue.png" alt="" />
+                      </div>
+                      <div>
+                        <p class="name">مشتريات Amazon</p>
+                        <p class="transact">تسوق إلكتروني</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="class C">
+                      <img src="./Assignment5-img/cart-shopping-solid-full-blue.png" alt="" />
+                      <span>تسوق</span>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="date">13 أكتوبر، 2025</p>
+                  </td>
+                  <td><span class="status completed">مكتمل</span></td>
+                  <td>
+                    <p class="price">-1250 جنية</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="transaction">
+                      <div class="img"><img class="avatar" src="./Assignment5-img/avatar-1 (1).jpg" alt="" /></div>
+                      <div>
+                        <p class="name">عمر المهدي</p>
+                        <p class="transact">دفع فاتورة مقسمة</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="class D">
+                      <img src="./Assignment5-img/users-solid-full.png" alt="" />
+                      <span>فاتورة مقسمة</span>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="date">13 أكتوبر، 2025</p>
+                  </td>
+                  <td><span class="status completed">مكتمل</span></td>
+                  <td>
+                    <p class="price">-1400 جنية</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="transaction">
+                      <div class="img"><img class="avatar" src="./Assignment5-img/avatar-3 (1).jpg" alt="" /></div>
+                      <div>
+                        <p class="name">محمد عوض</p>
+                        <p class="transact">دفع عمل حر</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="class E">
+                      <img src="./Assignment5-img/briefcase-solid-full.png" alt="" />
+                      <span>عمل</span>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="date">12 أكتوبر، 2025</p>
+                  </td>
+                  <td><span class="status completed">مكتمل</span></td>
+                  <td>
+                    <p class="price plus">+2500 جنية</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="transaction">
+                      <div class="img">
+                        <img class="icon C" src="./Assignment5-img/gas-pump-solid-full.png" alt="" />
+                      </div>
+                      <div>
+                        <p class="name">محطة وقود Shell</p>
+                        <p class="transact">شراء وقود</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="class F">
+                      <img src="./Assignment5-img/car-solid-full.png" alt="" />
+                      <span>مواصلات</span>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="date">14 أكتوبر، 2025</p>
+                  </td>
+                  <td><span class="status stuck">معلق</span></td>
+                  <td>
+                    <p class="price">-700 جنية</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="transaction">
+                      <div class="img">
+                        <img class="icon D" src="./Assignment5-img/heart-solid-full-(2).png" alt="" />
+                      </div>
+                      <div>
+                        <p class="name">اشتراك Netflix</p>
+
+                        <p class="transact">اشتراك شهري</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="class G">
+                      <img src="./Assignment5-img/tv-solid-full-violet.png" alt="" />
+                      <span>ترفيه</span>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="date">11 أكتوبر، 2025</p>
+                  </td>
+                  <td><span class="status completed">مكتمل</span></td>
+                  <td>
+                    <p class="price">-780 جنية</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="transaction">
+                      <div class="img">
+                        <img class="icon E" src="./Assignment5-img/dumbbell-solid-full.png" alt="" />
+                      </div>
+                      <div>
+                        <p class="name">نادي FitLife</p>
+
+                        <p class="transact">عضوية شهرية</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="class H">
+                      <img src="./Assignment5-img/heart-pulse-solid-full.png" alt="" />
+                      <span>صحة</span>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="date">10 أكتوبر، 2025</p>
+                  </td>
+                  <td><span class="status completed">مكتمل</span></td>
+                  <td>
+                    <p class="price">-500 جنية</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="transaction">
+                      <div class="img">
+                        <img class="icon F" src="./Assignment5-img/graduation-cap-solid-full.png" alt="" />
+                      </div>
+                      <div>
+                        <p class="name">كورس Jonas</p>
+
+                        <p class="transact">دورة تدريبية</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="class I">
+                      <img src="./Assignment5-img/book-solid-full.png" alt="" />
+                      <span>تعليم</span>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="date">9 أكتوبر، 2025</p>
+                  </td>
+                  <td><span class="status completed">مكتمل</span></td>
+                  <td>
+                    <p class="price">-250 جنية</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="budget">
+          <div class="header">
+            <h3>نظرة عامة على الميزانية</h3>
+            <button>التفاصيل ></button>
+          </div>
+          <div class="total">
+            <div class="text">
+              <div class="summarytext">
+                <p class="all">إجمالي الميزانية</p>
+                <p class="cash">10000 جنية</p>
+              </div>
+              <div class="rest">
+                <p class="rest">المتبقي</p>
+                <p class="cash">1750 جنية</p>
+              </div>
+            </div>
+            <div class="cursor">
+              <div class="text">
+                <p class="using">المستخدم: 8250 جنية</p>
+                <p class="using">82.5%</p>
+              </div>
+              <div class="all">
+                <div class="percentage"></div>
+              </div>
+            </div>
+          </div>
+          <div class="section entertainment">
+            <div class="top">
+              <div class="right">
+                <div class="img">
+                  <svg
+                    class="svg-inline--fa fa-film text-orange-600"
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="film"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                    data-fa-i2svg="">
+                    <path
+                      fill="currentColor"
+                      d="M0 96C0 60.7 28.7 32 64 32H448c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96zM48 368v32c0 8.8 7.2 16 16 16H96c8.8 0 16-7.2 16-16V368c0-8.8-7.2-16-16-16H64c-8.8 0-16 7.2-16 16zm368-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V368c0-8.8-7.2-16-16-16H416zM48 240v32c0 8.8 7.2 16 16 16H96c8.8 0 16-7.2 16-16V240c0-8.8-7.2-16-16-16H64c-8.8 0-16 7.2-16 16zm368-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V240c0-8.8-7.2-16-16-16H416zM48 112v32c0 8.8 7.2 16 16 16H96c8.8 0 16-7.2 16-16V112c0-8.8-7.2-16-16-16H64c-8.8 0-16 7.2-16 16zM416 96c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V112c0-8.8-7.2-16-16-16H416zM160 128v64c0 17.7 14.3 32 32 32H320c17.7 0 32-14.3 32-32V128c0-17.7-14.3-32-32-32H192c-17.7 0-32 14.3-32 32zm32 160c-17.7 0-32 14.3-32 32v64c0 17.7 14.3 32 32 32H320c17.7 0 32-14.3 32-32V320c0-17.7-14.3-32-32-32H192z"></path>
+                  </svg>
+                </div>
+                <div class="text">
+                  <p class="title">ترفيه</p>
+                  <p class="cost">الميزانية: 1500 جنية</p>
+                </div>
+              </div>
+              <div class="left">
+                <p class="cash">750 جنية</p>
+                <p class="percentage">متبقي 50%</p>
+              </div>
+            </div>
+            <div class="all">
+              <div class="percentage"></div>
+            </div>
+          </div>
+          <div class="section bills">
+            <div class="top">
+              <div class="right">
+                <div class="img">
+                  <svg
+                    class="svg-inline--fa fa-file-invoice-dollar text-red-600"
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="file-invoice-dollar"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 384 512"
+                    data-fa-i2svg="">
+                    <path
+                      fill="currentColor"
+                      d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM64 80c0-8.8 7.2-16 16-16h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H80c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H80c-8.8 0-16-7.2-16-16zm128 72c8.8 0 16 7.2 16 16v17.3c8.5 1.2 16.7 3.1 24.1 5.1c8.5 2.3 13.6 11 11.3 19.6s-11 13.6-19.6 11.3c-11.1-3-22-5.2-32.1-5.3c-8.4-.1-17.4 1.8-23.6 5.5c-5.7 3.4-8.1 7.3-8.1 12.8c0 3.7 1.3 6.5 7.3 10.1c6.9 4.1 16.6 7.1 29.2 10.9l.5 .1 0 0 0 0c11.3 3.4 25.3 7.6 36.3 14.6c12.1 7.6 22.4 19.7 22.7 38.2c.3 19.3-9.6 33.3-22.9 41.6c-7.7 4.8-16.4 7.6-25.1 9.1V440c0 8.8-7.2 16-16 16s-16-7.2-16-16V422.2c-11.2-2.1-21.7-5.7-30.9-8.9l0 0c-2.1-.7-4.2-1.4-6.2-2.1c-8.4-2.8-12.9-11.9-10.1-20.2s11.9-12.9 20.2-10.1c2.5 .8 4.8 1.6 7.1 2.4l0 0 0 0 0 0c13.6 4.6 24.6 8.4 36.3 8.7c9.1 .3 17.9-1.7 23.7-5.3c5.1-3.2 7.9-7.3 7.8-14c-.1-4.6-1.8-7.8-7.7-11.6c-6.8-4.3-16.5-7.4-29-11.2l-1.6-.5 0 0c-11-3.3-24.3-7.3-34.8-13.7c-12-7.2-22.6-18.9-22.7-37.3c-.1-19.4 10.8-32.8 23.8-40.5c7.5-4.4 15.8-7.2 24.1-8.7V232c0-8.8 7.2-16 16-16z"></path>
+                  </svg>
+                </div>
+                <div class="text">
+                  <p class="title">فواتير</p>
+                  <p class="cost">الميزانية: 2000 جنية</p>
+                </div>
+              </div>
+              <div class="left">
+                <p class="cash">2000 جنية</p>
+                <p class="percentage">مستخدم 100%</p>
+              </div>
+            </div>
+            <div class="all">
+              <div class="percentage"></div>
+            </div>
+          </div>
+
+          <div class="section care">
+            <div class="top">
+              <div class="right">
+                <div class="img">
+                  <svg
+                    class="svg-inline--fa fa-heart text-pink-600"
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="heart"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                    data-fa-i2svg="">
+                    <path
+                      fill="currentColor"
+                      d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"></path>
+                  </svg>
+                </div>
+
+                <div class="text">
+                  <p class="title">العناية الشخصية</p>
+                  الميزانية: 1500 جنية
+                  <p class="cost"></p>
+                </div>
+              </div>
+              <div class="left">
+                <p class="cash">1200 جنية</p>
+                <p class="percentage">متبقي 20%</p>
+              </div>
+            </div>
+            <div class="all">
+              <div class="percentage"></div>
+            </div>
+          </div>
+          <div class="section home">
+            <div class="top">
+              <div class="right">
+                <div class="img">
+                  <svg
+                    class="svg-inline--fa fa-cart-shopping text-green-600"
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="cart-shopping"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                    data-fa-i2svg="">
+                    <path
+                      fill="currentColor"
+                      d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path>
+                  </svg>
+                </div>
+                <div class="text">
+                  <p class="title">مستلزمات المنزل</p>
+                  <p class="cost">الميزانية: 5000 جنية</p>
+                </div>
+              </div>
+              <div class="left">
+                <p class="cash">4300 جنية</p>
+                <p class="percentage">متبقي 14%</p>
+              </div>
+            </div>
+            <div class="all">
+              <div class="percentage"></div>
+            </div>
+          </div>
+        </div>
+        <div class="chart">
+          <div class="header">
+            <h3>الدخل مقابل المصروفات</h3>
+            <button>التحليل ></button>
+          </div>
+          <div class="key">
+            <div class="income">
+              <div class="green-key"></div>
+              <p class="definition">الدخل</p>
+            </div>
+            <div class="expenses">
+              <div class="red-key"></div>
+              <p class="definition">المصروفات</p>
+            </div>
+          </div>
+          <div class="charts">
+            <div class="static num1">
+              <div class="columns">
+                <div class="income column"></div>
+                <div class="expenses column"></div>
+              </div>
+              <p class="week">الأسبوع 1</p>
+            </div>
+            <div class="static num2">
+              <div class="columns">
+                <div class="income column"></div>
+                <div class="expenses column"></div>
+              </div>
+              <p class="week">الأسبوع 2</p>
+            </div>
+            <div class="static num3">
+              <div class="columns">
+                <div class="income column"></div>
+                <div class="expenses column"></div>
+              </div>
+              <p class="week">الأسبوع 3</p>
+            </div>
+            <div class="static num4">
+              <div class="columns">
+                <div class="income column"></div>
+                <div class="expenses column"></div>
+              </div>
+              <p class="week">الأسبوع 4</p>
+            </div>
+          </div>
+        </div>
+        <div class="summary">
+          <div class="header">
+            <h3>ملخص الحساب</h3>
+            <button>التفاصيل ></button>
+          </div>
+          <div class="overview current">
+            <div class="tool">
+              <div class="img current"><img src="./Assignment5-img/building-columns-solid-full.png" alt="" /></div>
+              <div class="text">
+                <p class="tool name">حساب جاري</p>
+                <p class="description">بنك مصر [•••• 4532]</p>
+              </div>
+            </div>
+            <p class="cash">8,450 جنية</p>
+          </div>
+
+          <div class="overview save">
+            <div class="tool">
+              <div class="img">
+                <svg
+                  class="svg-inline--fa fa-piggy-bank text-green-600"
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fas"
+                  data-icon="piggy-bank"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 576 512"
+                  data-fa-i2svg="">
+                  <path
+                    fill="currentColor"
+                    d="M400 96l0 .7c-5.3-.4-10.6-.7-16-.7H256c-16.5 0-32.5 2.1-47.8 6c-.1-2-.2-4-.2-6c0-53 43-96 96-96s96 43 96 96zm-16 32c3.5 0 7 .1 10.4 .3c4.2 .3 8.4 .7 12.6 1.3C424.6 109.1 450.8 96 480 96h11.5c10.4 0 18 9.8 15.5 19.9l-13.8 55.2c15.8 14.8 28.7 32.8 37.5 52.9H544c17.7 0 32 14.3 32 32v96c0 17.7-14.3 32-32 32H512c-9.1 12.1-19.9 22.9-32 32v64c0 17.7-14.3 32-32 32H416c-17.7 0-32-14.3-32-32V448H256v32c0 17.7-14.3 32-32 32H192c-17.7 0-32-14.3-32-32V416c-34.9-26.2-58.7-66.3-63.2-112H68c-37.6 0-68-30.4-68-68s30.4-68 68-68h4c13.3 0 24 10.7 24 24s-10.7 24-24 24H68c-11 0-20 9-20 20s9 20 20 20H99.2c12.1-59.8 57.7-107.5 116.3-122.8c12.9-3.4 26.5-5.2 40.5-5.2H384zm64 136a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z"></path>
+                </svg>
+              </div>
+              <div class="text">
+                <p class="tool name">حساب التوفير</p>
+                <p class="description">بنك مصر [•••• 8901]</p>
+              </div>
+            </div>
+            <p class="cash">297,540 جنية</p>
+          </div>
+          <div class="overview credit">
+            <div class="tool">
+              <div class="img credit"><img src="./Assignment5-img/credit-card-solid-full-violet.png" alt="" /></div>
+              <div class="text">
+                <p class="tool name">بطاقة ائتمان</p>
+                <p class="description">متاح: 1,850 جنية من 2,500 جنية</p>
+              </div>
+            </div>
+            <p class="cash">- 6,000 جنية</p>
+          </div>
+        </div>
+        <div class="payments">
+          <div class="header">
+            <h3>وسائل الدفع</h3>
+            <button>إدارة ></button>
+          </div>
+          <div class="cards">
+            <div class="wrapper num1">
+              <div class="card num1">
+                <div class="back">
+                  <div class="gradient"></div>
+                  <p class="signatureH">توقيع معتمد - غير صالحة بدون توقيع</p>
+                  <div class="signature">
+                    <div class="row"></div>
+                    <p class="digits4">4532</p>
+                  </div>
+                  <div class="end">
+                    <div class="collector">
+                      <p class="cvv">CVV</p>
+                      <div class="num">123</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="front">
+                  <span>أساسية</span>
+                  <div class="top">
+                    <div class="external"><div class="internal"></div></div>
+                    <img src="./Assignment5-img/cc-visa-brands-solid-full.png" alt="" />
+                  </div>
+                  <p class="middle">•••• •••• •••• 4532</p>
+                  <div class="bottom">
+                    <div class="right">
+                      <p class="user">حامل البطاقة</p>
+                      <p class="name">سيف أسامة</p>
+                    </div>
+                    <div class="left">
+                      <p class="status">تنتهي</p>
+                      <p class="date">12/26</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="wrapper num2">
+              <div class="card num2">
+                <div class="back">
+                  <div class="gradient"></div>
+                  <p class="signatureH">توقيع معتمد - غير صالحة بدون توقيع</p>
+                  <div class="signature">
+                    <div class="row"></div>
+                    <p class="digits4">8901</p>
+                  </div>
+                  <div class="end">
+                    <div class="collector">
+                      <p class="cvv">CVV</p>
+                      <div class="num">456</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="front">
+                  <div class="top">
+                    <div class="external"><div class="internal"></div></div>
+                    <img src="./Assignment5-img/cc-mastercard-brands-solid-full.png" alt="" />
+                  </div>
+                  <p class="middle">•••• •••• •••• 8901</p>
+                  <div class="bottom">
+                    <div class="right">
+                      <p class="user">حامل البطاقة</p>
+                      <p class="name">سيف أسامة</p>
+                    </div>
+                    <div class="left">
+                      <p class="status">تنتهي</p>
+                      <p class="date">08/27</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="wrapper num3">
+              <div class="card num3">
+                <div class="back">
+                  <div class="gradient"></div>
+                  <p class="signatureH">توقيع معتمد - غير صالحة بدون توقيع</p>
+                  <div class="signature">
+                    <div class="row"></div>
+                    <p class="digits4">PP01</p>
+                  </div>
+                  <div class="end">
+                    <div class="collector">
+                      <p class="cvv">ID</p>
+                      <div class="num">PP-01</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="front">
+                  <div class="top">
+                    <div class="external"><div class="internal"></div></div>
+                    <img src="./Assignment5-img/paypal-brands-solid-full.png" alt="" />
+                  </div>
+                  <p class="middle">حساب Paypal</p>
+                  <div class="bottom">
+                    <div class="right">
+                      <p class="user">الإيميل</p>
+                      <p class="name">seif@example.com</p>
+                    </div>
+                    <div class="left">
+                      <p class="status">الحالة</p>
+                      <p class="date">موثق</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
